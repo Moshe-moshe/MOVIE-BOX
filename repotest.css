@@ -1,0 +1,2437 @@
+@media screen and (min-width:300px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        position: static;
+        width: 100%;
+        height: 150px;
+        padding-top: 3%;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-right: 0px solid  rgb(74, 68, 68);
+        overflow: hidden;
+        flex-direction: column;
+    
+    }
+    
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 70px;
+        height: 70px; 
+        margin-left: 9%; 
+        margin-bottom:8% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 30px;
+        padding-left: 10px;
+        margin-bottom: 0%;
+    }
+    
+    .sidenav2{
+        width: 50%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 8%;
+        display: none;
+    }
+    .sidenav3{
+        width: 40%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 8%;
+        background-color: rgb(255, 138, 138);
+        border-right: 3px solid red;
+        display: none;
+    } .sidenav4{
+        width: 50%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 8%;
+        display: none;
+    } 
+    .sidenav5{
+        width: 50%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 8%;
+        display: none;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 42%;
+        height: 50%;
+        margin-left: 45%;
+        margin-top: 0%;
+        border-radius: 4px;
+        font-size: 13px;
+        font-weight: 600;
+        padding-left: 2%;
+        padding-top:2% ;
+        border-radius: 5px;
+        border: 1px solid red;
+        position: relative;
+        bottom: 48%;
+        display: none;
+    
+        p{
+            font-size: 13px;
+            font-weight: 400;
+            padding-top: 0%;
+            display: none;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 10%;
+        background-color: rgb(245, 137, 137);
+        color: black;
+        font-size: 15px;
+        height: 32px;
+        border: none;
+        border-radius: 0.5em;
+        display: none;
+    }
+    
+    .sidenav7{
+        width: 50%;
+        font-size: 18px;
+        margin-top: 8%;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 0%;
+        font-weight: 500;
+        display: none;
+    }
+    
+    i{
+        padding-right: 5%;
+        font-size: 12px;
+        padding-left: 4%;
+        display: none;
+    }
+    
+    .main-body{
+        background-color: azure;
+        width: 100%;
+        height: 700px;
+        margin-top: 0%;
+        flex-direction: column;
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 100%;
+        height: 200px;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .movie-frame{
+        width: 100%;
+        margin: auto;
+        height: 250px;
+        margin-top: 0%;
+        margin-right: 7%;
+        
+        iframe{
+            width: 100%;
+            height: 250px;
+            
+        }
+    }
+    
+.down-body{
+    background-color: wheat;
+    width: 100%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chief-station{
+    width: 100%;
+    height: 350px;
+    padding-left: 3%;
+    background-color: rgb(242, 251, 251);
+    border-right: 2px solid rgb(97, 95, 95);
+    display: flex;
+    flex-direction: column;
+p{
+    font-size: 13px;
+    font-weight: 500;
+}
+}
+.action-triller{
+    width: 80%;
+    height: 50px;
+    display: flex;
+h3{
+    font-weight: 600;
+    font-size: 12px;
+    width: 100%;
+}
+button{
+    border-radius: 0.8em;
+    border: 1px solid red;
+    width: 30%;
+    height: 40px;
+    margin-top: 1.5%;
+    gap: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+    color: red;
+    
+}
+}
+
+.rating-vote{
+    width: 100%;
+    height: 250px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.star_vote{
+    height: 40px;
+    width: 100%;
+    margin-left:0%;
+    text-align: center;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(84, 13, 13);
+    background-color: rgb(240, 242, 242);
+    display: flex;
+    flex-direction: column;
+}
+
+.see_showtime{
+    background-color: red;
+    width: 80%;
+    height: 50px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 1%;
+    font-size: 20px;
+    margin-left: 6%;
+}
+.more_watchoption{
+background-color: rgb(222, 180, 180);
+    width: 80%;
+    height: 50px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 0.5%;
+    font-size: 20px;
+    margin-left: 6%;
+}
+
+
+.footer{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+.icon{
+    padding-left: 0%;
+    text-align: center;
+    font-size: 12px;
+i{
+    padding-left: 0%;
+    padding-top: 5%;
+    font-size: 15px;
+    
+}
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footer-text span{
+    padding-left: 2%;
+    font-size: 12px;
+}
+
+h5{
+text-align: center;
+padding-left: 0%;
+font-size: 14px;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.movie-content p{
+    color: brown;
+    font-size: 20px;
+}
+}
+
+
+@media screen and (min-width:450px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        position: static;
+        width: 100%;
+        height: 100px;
+        padding-top: 3%;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-right: 0px solid  rgb(74, 68, 68);
+        overflow: hidden;
+        flex-direction: column;
+    
+    }
+    
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 80px;
+        height: 80px; 
+        margin-left: 12%; 
+        margin-bottom:8% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 38px;
+        padding-left: 10px;
+        margin-bottom: 0%;
+    }
+    
+    .sidenav2{
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 8%;
+        display: none;
+
+    }
+    .sidenav3{
+        width: 40%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 8%;
+        background-color: rgb(255, 138, 138);
+        border-right: 3px solid red;
+        display: none;
+
+    } .sidenav4{
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 8%;
+        display: none;
+
+    } 
+    .sidenav5{
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 8%;
+        display: none;
+
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 35%;
+        height: 50%;
+        margin-left: 50%;
+        margin-top: 0%;
+        border-radius: 4px;
+        font-size: 17px;
+        font-weight: 600;
+        padding-left: 2%;
+        padding-top:2% ;
+        border-radius: 5px;
+        border: 1px solid red;
+        position: relative;
+        bottom: 52%;
+        display: none;
+
+    
+        p{
+            font-size: 17px;
+            font-weight: 400;
+            padding-top: 0%;        
+            display: none;
+        }
+        
+    }
+    
+    .playing-now{
+        margin-left: 10%;
+        background-color: rgb(245, 137, 137);
+        color: black;
+        font-size: 15px;
+        height: 32px;
+        border: none;
+        border-radius: 0.5em;
+        display: none;
+
+    }
+    
+    .sidenav7{
+        width: 50%;
+        font-size: 18px;
+        margin-top: 8%;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 0%;
+        font-weight: 500;
+        display: none;
+
+    }
+    
+    i{
+        padding-right: 5%;
+        font-size: 15px;
+        padding-left: 4%;
+        display: none;
+
+    }
+    
+    .main-body{
+        background-color: azure;
+        width: 100%;
+        height: 650px;
+        margin-top: 0%;
+        flex-direction: column;
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 100%;
+        height: 200px;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .movie-frame{
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 7%;
+        
+        iframe{
+            width: 100%;
+            height: 200px;
+            
+        }
+    }
+    
+.down-body{
+    background-color: wheat;
+    width: 100%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chief-station{
+    width: 98%;
+    height: 250px;
+    background-color: rgb(242, 251, 251);
+    border-right: 2px solid rgb(97, 95, 95);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+.action-triller{
+    width: 80%;
+    height: 50px;
+    display: flex;
+h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+button{
+    border-radius: 0.8em;
+    border: 1px solid red;
+    width: 20%;
+    height: 40px;
+    margin-top: 1.5%;
+    gap: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+    color: red;
+    
+}
+}
+
+.rating-vote{
+    width: 100%;
+    height: 250px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.star_vote{
+    height: 40px;
+    width: 100%;
+    margin-left:0%;
+    text-align: center;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(84, 13, 13);
+    background-color: rgb(240, 242, 242);
+    display: flex;
+    flex-direction: column;
+}
+
+.see_showtime{
+    background-color: red;
+    width: 80%;
+    height: 50px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 7%;
+}
+.more_watchoption{
+background-color: rgb(222, 180, 180);
+    width: 80%;
+    height: 50px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 0.5%;
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+
+.footer{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+.icon{
+    padding-left: 0%;
+    text-align: center;
+    font-size: 12px;
+i{
+    padding-left: 0%;
+    padding-top: 5%;
+    font-size: 15px;
+    
+}
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footer-text span{
+    padding-left: 2%;
+    font-size: 12px;
+}
+
+h5{
+text-align: center;
+padding-left: 0%;
+font-size: 14px;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.movie-content p{
+    color: brown;
+    font-size: 20px;
+}
+}
+
+
+@media screen and (min-width:550px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        position: static;
+        width: 100%;
+        height: 150px;
+        padding-top: 3%;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-right: 0px solid  rgb(74, 68, 68);
+        overflow: hidden;
+        flex-direction: column;
+    
+    }
+    
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 80px;
+        height: 80px; 
+        margin-left: 14%; 
+        margin-bottom:8% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 38px;
+        padding-left: 12px;
+        margin-bottom: 0%;
+    }
+    
+    .sidenav2{
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 5%;
+        display: none;
+    }
+    .sidenav3{
+        width: 40%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 5%;
+        background-color: rgb(255, 138, 138);
+        border-right: 3px solid red;
+        display: none;
+    } .sidenav4{
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 5%;
+        display: none;
+    } 
+    .sidenav5{
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 5%;
+        padding-top: 5%;
+        display: none;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 35%;
+        height: 50%;
+        margin-left: 50%;
+        margin-top: 0%;
+        border-radius: 4px;
+        font-size: 17px;
+        font-weight: 600;
+        padding-left: 2%;
+        padding-top:2% ;
+        border-radius: 5px;
+        border: 1px solid red;
+        position: relative;
+        bottom: 45%;
+        display: none;
+    
+        p{
+            font-size: 17px;
+            font-weight: 400;
+            padding-top: 0%;
+            display: none;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 10%;
+        background-color: rgb(245, 137, 137);
+        color: black;
+        font-size: 15px;
+        height: 32px;
+        border: none;
+        border-radius: 0.5em;
+        display: none;
+    }
+    
+    .sidenav7{
+        width: 50%;
+        font-size: 18px;
+        margin-top: 8%;
+        height: 20px;
+        padding-left: 0%;
+        padding-top: 0%;
+        font-weight: 500;
+        display: none;
+    }
+    
+    i{
+        padding-right: 5%;
+        font-size: 15px;
+        padding-left: 4%;
+        display: none;
+    }
+    
+    .main-body{
+        background-color: rgb(253, 253, 253);
+        width: 100%;
+        height: 720px;
+        margin-top: 0%;
+        flex-direction: column;
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 100%;
+        height: 200px;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .movie-frame{
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 7%;
+        
+        iframe{
+            width: 100%;
+            height: 200px;
+            
+        }
+    }
+    
+.down-body{
+    background-color: wheat;
+    width: 100%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chief-station{
+    width: 98%;
+    height: 300px;
+    background-color: rgb(255, 250, 250);
+    border-right: 2px solid rgb(97, 95, 95);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+}
+.action-triller{
+    width: 80%;
+    height: 50px;
+    display: flex;
+h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+button{
+    border-radius: 0.8em;
+    border: 1px solid red;
+    width: 20%;
+    height: 40px;
+    margin-top: 1.5%;
+    gap: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+    color: red;
+    
+}
+}
+
+.rating-vote{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(241, 249, 255);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.star_vote{
+    height: 40px;
+    width: 100%;
+    margin-left:0%;
+    text-align: center;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(84, 13, 13);
+    background-color: rgb(240, 242, 242);
+    display: flex;
+    flex-direction: column;
+}
+
+.see_showtime{
+    background-color: red;
+    width: 80%;
+    height: 50px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 7%;
+}
+.more_watchoption{
+background-color: rgb(222, 180, 180);
+    width: 80%;
+    height: 50px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 0.5%;
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+
+.footer{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+.icon{
+    padding-left: 0%;
+    text-align: center;
+    font-size: 12px;
+i{
+    padding-left: 0%;
+    padding-top: 5%;
+    font-size: 15px;
+    
+}
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footer-text span{
+    padding-left: 2%;
+    font-size: 12px;
+}
+
+h5{
+text-align: center;
+padding-left: 0%;
+font-size: 14px;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.movie-content p{
+    color: brown;
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width:700px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: 585px;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        width: 29%;
+        height: 560px;
+        padding-top: 3%;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-right: 3px solid  rgb(74, 68, 68);
+        position: fixed;
+        overflow: hidden;
+    
+    }
+    
+    /* .leftnav-container{
+        width: 80%;
+        height: 500px;
+        background-color: brown;
+        margin-left: 2%;
+        margin-top: 1%;
+    } */
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 55px;
+        height: 55px; 
+        margin-left: 7%; 
+        margin-bottom:10%; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 25px;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    }
+    
+    .sidenav2{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 12%;
+        display: block;
+    }
+    .sidenav3{
+        width: 83.5%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        background-color: rgb(248, 85, 85);
+        border-right: 5px solid red;
+        display: block;
+    } .sidenav4{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        display: block;
+    } 
+    .sidenav5{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        display: block;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 70%;
+        height: 30%;
+        margin-left: 10%;
+        top: 8%;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3%;
+        padding-top:10%;
+        border-radius: 5px;
+        border: 2px solid red;
+        position: relative;
+        display: block;
+    
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            padding-top: 5%;
+            display: block;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 14%;
+        background-color: rgb(245, 137, 137);
+        color: red;
+        font-size: 15px;
+        height: 30px;
+        border: none;
+        border-radius: 0.5em;
+        display: block;
+    }
+    
+    .sidenav7{
+        font-size: 16px;
+        height: 10px;
+        padding-left: 18%;
+        padding-top: 18%;
+        font-weight: 600;
+        display: block;
+    }
+    
+    i{
+        padding-right: 10%;
+        display: block;
+    }
+    
+    
+    .main-body{
+        background-color: azure;
+        width: 71%;
+        height: 580px; 
+        margin-left: 29.5%;
+
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 95%;
+        height: 250px;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .movie-frame{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        
+        iframe{
+            width: 100%;
+            height: 250px;
+        }
+    }
+    
+    .down-body{
+        background-color: azure;
+        width: 100%;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+    }
+    
+    .chief-station{
+        width: 60%;
+        height: 300px;
+        background-color: azure;
+        border-right: 2px solid rgb(97, 95, 95);
+    p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .overview{
+        font-size: 15px;
+    }
+    }
+    .action-triller{
+        width: 80%;
+        height: 50px;
+        /* background-color:red; */
+        display: flex;
+    h3{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    button{
+        border-radius: 0.8em;
+        border: 1px solid red;
+        width: 30%;
+        height: 40px;
+        margin-top: 1.5%;
+        gap: 1%;
+        margin-left: 2%;
+        font-size: 15px;
+        color: red;
+        
+    }
+    }
+    
+    .rating-vote{
+        width: 35%;
+        height: 200px;
+        margin-left: 0%;
+        position: relative;
+        margin-left: 65%;
+        bottom: 90%;
+    }
+    
+    .star_vote{
+        height: 60px;
+        width: 90%;
+        margin-left:0%;
+        text-align: center;
+        padding-top: 4%;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(84, 13, 13);
+    }
+    
+    .see_showtime{
+        background-color: red;
+        width: 80%;
+        height: 60px;
+        color: white;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+    .more_watchoption{
+    background-color: rgb(222, 180, 180);
+        width: 80%;
+        height: 60px;
+        color: black;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 0.5%;
+        font-size: 20px;
+    }
+    
+    .footer{
+        background-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 200px;
+        display: none;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 5%;
+        
+    }
+    }
+    
+    .footer-text{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    .movie-content p{
+        color: brown;
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (min-width:900px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        width: 26.5%;
+        height: 570px;
+        padding-top: 3%;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-right: 3px solid  rgb(74, 68, 68);
+        position: fixed;
+        overflow: hidden;
+    
+    }
+    
+    /* .leftnav-container{
+        width: 80%;
+        height: 500px;
+        background-color: brown;
+        margin-left: 2%;
+        margin-top: 1%;
+    } */
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 60px;
+        height: 60px; 
+        margin-left: 7%; 
+        margin-bottom:10% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 27px;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    }
+    
+    .sidenav2{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 12%;
+    }
+    .sidenav3{
+        width: 83.5%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        background-color: rgb(248, 85, 85);
+        border-right: 5px solid red;
+    } .sidenav4{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    } 
+    .sidenav5{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 70%;
+        height: 30%;
+        margin-left: 10%;
+        top: 8%;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 3%;
+        padding-top:10%;
+        border-radius: 5px;
+        border: 3px solid red;
+        position: relative;
+    
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            padding-top: 5%;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 14%;
+        background-color: rgb(245, 137, 137);
+        color: red;
+        font-size: 15px;
+        height: 30px;
+        border: none;
+        border-radius: 0.5em;
+    }
+    
+    .sidenav7{
+        font-size: 16px;
+        height: 10px;
+        padding-left: 18%;
+        padding-top: 18%;
+        font-weight: 600;
+    }
+    
+    i{
+        padding-right: 10%;
+    }
+    
+    
+    .main-body{
+        background-color: azure;
+        width: 73%;
+        height: 600px; 
+        margin-left: 27%;
+
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 95%;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .movie-frame{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        
+        iframe{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    
+    .down-body{
+        background-color: azure;
+        width: 100%;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+    }
+    
+    .chief-station{
+        width: 60%;
+        height: 300px;
+        background-color: azure;
+        border-right: 2px solid rgb(97, 95, 95);
+    p{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1px;
+    }
+    .overview{
+        font-size: 18px;
+        line-height: 17px;
+    }
+    }
+    .action-triller{
+        width: 80%;
+        height: 50px;
+        /* background-color:red; */
+        display: flex;
+    h3{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    button{
+        border-radius: 0.8em;
+        border: 1px solid red;
+        width: 30%;
+        height: 40px;
+        margin-top: 1.5%;
+        gap: 1%;
+        margin-left: 2%;
+        font-size: 15px;
+        color: red;
+        
+    }
+    }
+    
+    .rating-vote{
+        width: 35%;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 2%;
+        position: relative;
+        margin-left: 65%;
+        bottom: 90%;
+    }
+    
+    .star_vote{
+        height: 40px;
+        width: 90%;
+        margin-top: 5%;
+        margin-left:0%;
+        text-align: center;
+        padding-top: 8%;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(84, 13, 13);
+    }
+    
+    .see_showtime{
+        background-color: red;
+        width: 80%;
+        height: 60px;
+        color: white;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+    .more_watchoption{
+    background-color: rgb(222, 180, 180);
+        width: 80%;
+        height: 60px;
+        color: black;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 0.5%;
+        font-size: 20px;
+    }
+    
+    .footer{
+        background-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 200px;
+        display: none;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 5%;
+        
+    }
+    }
+    
+    .footer-text{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    .movie-content p{
+        color: brown;
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (min-width:1100px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: 650px;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        width: 24%;
+        height: 615px;
+        padding-top: 3%;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-right: 3px solid  rgb(74, 68, 68);
+        position: fixed;
+        overflow: hidden;
+    
+    }
+    
+    /* .leftnav-container{
+        width: 80%;
+        height: 500px;
+        background-color: brown;
+        margin-left: 2%;
+        margin-top: 1%;
+    } */
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 60px;
+        height: 60px; 
+        margin-left: 7%; 
+        margin-bottom:10% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 27px;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    }
+    
+    .sidenav2{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 12%;
+    }
+    .sidenav3{
+        width: 83.5%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        background-color: rgb(248, 85, 85);
+        border-right: 5px solid red;
+    } .sidenav4{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    } 
+    .sidenav5{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 70%;
+        height: 30%;
+        margin-left: 10%;
+        top: 8%;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3%;
+        padding-top:10%;
+        border-radius: 5px;
+        border: 3px solid red;
+        position: relative;
+    
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            padding-top: 5%;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 14%;
+        background-color: rgb(245, 137, 137);
+        color: red;
+        font-size: 15px;
+        height: 30px;
+        border: none;
+        border-radius: 0.5em;
+    }
+    
+    .sidenav7{
+        font-size: 18px;
+        height: 10px;
+        padding-left: 18%;
+        padding-top: 18%;
+        font-weight: 600;
+    }
+    
+    i{
+        padding-right: 10%;
+    }
+    
+    
+    .main-body{
+        background-color: azure;
+        width: 76%;
+        height: 600px; 
+        margin-left: 24.2%;
+
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 95%;
+        height: 320px;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .movie-frame{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        
+        iframe{
+            width: 100%;
+            height: 320px;
+        }
+    }
+    
+    .down-body{
+        background-color: azure;
+        width: 100%;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+    }
+    
+    .chief-station{
+        width: 60%;
+        height: 300px;
+        background-color: azure;
+        border-right: 2px solid rgb(97, 95, 95);
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1px;
+    }
+    .overview{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    }
+    .action-triller{
+        width: 80%;
+        height: 50px;
+        /* background-color:red; */
+        display: flex;
+    h3{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    button{
+        border-radius: 0.8em;
+        border: 1px solid red;
+        width: 30%;
+        height: 40px;
+        margin-top: 1.5%;
+        gap: 4%;
+        margin-left: 2%;
+        font-size: 15px;
+        color: red;
+        
+    }
+    }
+    
+    .rating-vote{
+        width: 35%;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 2%;
+        position: relative;
+        margin-left: 63%;
+        bottom: 90%;
+    }
+    
+    .star_vote{
+        height: 40px;
+        width: 95%;
+        margin-top: 5%;
+        margin-left:0%;
+        text-align: center;
+        padding-top: 8%;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(84, 13, 13);
+    }
+    
+    .see_showtime{
+        background-color: red;
+        width: 85%;
+        height: 60px;
+        color: white;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+    .more_watchoption{
+    background-color: rgb(222, 180, 180);
+        width: 85%;
+        height: 60px;
+        color: black;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 0.5%;
+        font-size: 20px;
+    }
+    
+    .footer{
+        background-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 200px;
+        display: block;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 5%;
+        
+    }
+    }
+    
+    .footer-text{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    .movie-content p{
+        color: brown;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1300px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: 690px;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        width: 22%;
+        height: 650px;
+        padding-top: 3%;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-right: 3px solid  rgb(74, 68, 68);
+        position: fixed;
+        overflow: hidden;
+    
+    }
+    
+    /* .leftnav-container{
+        width: 80%;
+        height: 500px;
+        background-color: brown;
+        margin-left: 2%;
+        margin-top: 1%;
+    } */
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 60px;
+        height: 60px; 
+        margin-left: 7%; 
+        margin-bottom:10% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 27px;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    }
+    
+    .sidenav2{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 12%;
+    }
+    .sidenav3{
+        width: 83.5%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        background-color: rgb(248, 85, 85);
+        border-right: 5px solid red;
+    } .sidenav4{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    } 
+    .sidenav5{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 70%;
+        height: 30%;
+        margin-left: 10%;
+        top: 8%;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3%;
+        padding-top:10%;
+        border-radius: 5px;
+        border: 3px solid red;
+        position: relative;
+    
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            padding-top: 5%;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 14%;
+        background-color: rgb(245, 137, 137);
+        color: red;
+        font-size: 15px;
+        height: 30px;
+        border: none;
+        border-radius: 0.5em;
+    }
+    
+    .sidenav7{
+        font-size: 18px;
+        height: 10px;
+        padding-left: 18%;
+        padding-top: 18%;
+        font-weight: 600;
+    }
+    
+    i{
+        padding-right: 10%;
+    }
+    
+    
+    .main-body{
+        background-color: azure;
+        width: 78%;
+        height: 689px; 
+        margin-left: 22.2%;
+
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 95%;
+        height: 320px;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .movie-frame{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        
+        iframe{
+            width: 100%;
+            height: 320px;
+        }
+    }
+    
+    .down-body{
+        background-color: azure;
+        width: 100%;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+    }
+    
+    .chief-station{
+        width: 60%;
+        height: 300px;
+        background-color: azure;
+        border-right: 2px solid rgb(97, 95, 95);
+    p{
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1px;
+    }
+    .overview{
+        font-size: 22px;
+        line-height: 27px;
+    }
+    }
+    .action-triller{
+        width: 80%;
+        height: 50px;
+        /* background-color:red; */
+        display: flex;
+    h3{
+        font-weight: 600;
+        font-size: 25px;
+        width: 60%;
+
+    }
+    button{
+        border-radius: 0.8em;
+        border: 1px solid red;
+        width: 30%;
+        height: 50px;
+        margin-top: 1.5%;
+        gap: 4%;
+        margin-left: 2%;
+        font-size: 15px;
+        color: red;
+        
+    }
+    }
+    
+    .rating-vote{
+        width: 35%;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 2%;
+        position: relative;
+        margin-left: 63%;
+        bottom: 90%;
+    }
+    
+    .star_vote{
+        height: 40px;
+        width: 95%;
+        margin-top: 5%;
+        margin-left:0%;
+        text-align: center;
+        padding-top: 8%;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(84, 13, 13);
+    }
+    
+    .see_showtime{
+        background-color: red;
+        width: 85%;
+        height: 60px;
+        color: white;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+    .more_watchoption{
+    background-color: rgb(222, 180, 180);
+        width: 85%;
+        height: 60px;
+        color: black;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 0.5%;
+        font-size: 20px;
+    }
+    
+    .footer{
+        background-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 200px;
+        display: block;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 5%;
+        
+    }
+    }
+    
+    .footer-text{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    .movie-content p{
+        color: brown;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width:1400px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        width: 100%;
+        height: 710px;
+        background-color: rgb(146, 146, 0);
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .sidenav-container{
+        background-color: white;
+        width: 20%;
+        height: 660px;
+        padding-top: 3%;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-right: 3px solid  rgb(74, 68, 68);
+        position: fixed;
+        overflow: hidden;
+    
+    }
+    
+    /* .leftnav-container{
+        width: 80%;
+        height: 500px;
+        background-color: brown;
+        margin-left: 2%;
+        margin-top: 1%;
+    } */
+    
+    .sidenav1{
+        width: 100%;
+        display: flex;
+    }
+    
+    .img6{
+        width: 60px;
+        height: 60px; 
+        margin-left: 7%; 
+        margin-bottom:10% ; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    h2{
+        color: black;
+        font-weight: 10px;
+        font-size: 27px;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    }
+    
+    .sidenav2{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 12%;
+    }
+    .sidenav3{
+        width: 83.5%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+        background-color: rgb(255, 185, 185);
+        border-right: 4px solid rgb(255, 78, 78);
+
+    } .sidenav4{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    } 
+    .sidenav5{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 20px;
+        padding-left: 15%;
+        padding-top: 8%;
+    }
+    
+    .sidenav6{
+        background-color:white;
+        width: 70%;
+        height: 30%;
+        margin-left: 10%;
+        top: 8%;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3%;
+        padding-top:10%;
+        border-radius: 5px;
+        border: 1px solid red;
+        position: relative;
+    
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            padding-top: 5%;
+        }
+    }
+    
+    .playing-now{
+        margin-left: 14%;
+        background-color: rgb(245, 137, 137);
+        color: red;
+        font-size: 15px;
+        height: 30px;
+        border: none;
+        border-radius: 0.5em;
+    }
+    
+    .sidenav7{
+        font-size: 18px;
+        height: 10px;
+        padding-left: 18%;
+        padding-top: 18%;
+        font-weight: 500;
+        cursor: progress;
+    }
+    
+    i{
+        padding-right: 10%;
+    }
+    
+    
+    .main-body{
+        background-color: azure;
+        width: 79.9%;
+        height: 707px; 
+        margin-left: 20.1%;
+
+    }
+    
+    .trailer-display{
+        background-color: wheat;
+        width: 95%;
+        height: 340px;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .movie-frame{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        
+        iframe{
+            width: 100%;
+            height: 340px;
+        }
+    }
+    
+    .down-body{
+        background-color: azure;
+        width: 100%;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+    }
+    
+    .chief-station{
+        width: 60%;
+        height: 300px;
+        background-color: azure;
+        border-right: 2px solid rgb(97, 95, 95);
+    p{
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 1px;
+    }
+    .overview{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    }
+    .action-triller{
+        width: 80%;
+        height: 50px;
+        /* background-color:red; */
+        display: flex;
+    h3{
+        font-weight: 600;
+        font-size: 24px;
+        width: 60%;
+        margin-bottom: 5%;
+
+    }
+    button{
+        border-radius: 0.8em;
+        border: 1px solid red;
+        width: 30%;
+        height: 50px;
+        margin-top: 1.5%;
+        gap: 4%;
+        margin-left: 2%;
+        font-size: 18px;
+        color: red;
+        
+    }
+    }
+    
+    .rating-vote{
+        width: 35%;
+        height: 200px;
+        margin-left: 0%;
+        margin-top: 2%;
+        position: relative;
+        margin-left: 63%;
+        bottom: 90%;
+    }
+    
+    .star_vote{
+        height: 40px;
+        width: 95%;
+        margin-top: 5%;
+        margin-left:0%;
+        text-align: center;
+        padding-top: 8%;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(84, 13, 13);
+    }
+    
+    .see_showtime{
+        background-color: red;
+        width: 85%;
+        height: 60px;
+        color: white;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+    .more_watchoption{
+    background-color: rgb(222, 180, 180);
+        width: 85%;
+        height: 60px;
+        color: black;
+        border: 1px solid red;
+        border-radius: 0.8em;
+        margin-top: 0.5%;
+        font-size: 20px;
+    }
+    
+    .footer{
+        background-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 200px;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 5%;
+        
+    }
+    }
+    
+    .footer-text{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+        display: block;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    .movie-content p{
+        color: brown;
+        font-size: 20px;
+}
+}

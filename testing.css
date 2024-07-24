@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(146, 146, 0);
+    display: flex;
+}
+
+.sidenav-container{
+    background-color: white;
+    position: sticky;
+    width: 17%;
+    height: auto;
+    padding-top: 3%;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-right: 3px solid  rgb(74, 68, 68);
+    position: sticky;
+    overflow: hidden;
+
+}
+
+/* .leftnav-container{
+    width: 80%;
+    height: 500px;
+    background-color: brown;
+    margin-left: 2%;
+    margin-top: 1%;
+} */
+
+.sidenav1{
+    width: 100%;
+    display: flex;
+}
+
+.img6{
+    width: 55px;
+    height: 55px; 
+    margin-left: 7%; 
+    margin-bottom:10% ; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    color: black;
+    font-weight: 10px;
+    font-size: 28px;
+    padding-left: 10px;
+    margin-bottom: 10%;
+}
+
+.sidenav2{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    height: 20px;
+    padding-left: 15%;
+    padding-top: 8%;
+}
+.sidenav3{
+    width: 83.5%;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 15%;
+    padding-top: 0%;
+    background-color: rgb(255, 155, 155);
+    border-right: 5px solid red;
+
+} .sidenav4{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    height: 20px;
+    padding-left: 15%;
+    padding-top: 8%;
+} 
+.sidenav5{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    height: 20px;
+    padding-left: 15%;
+    padding-top: 8%;
+}
+
+.sidenav6{
+    background-color:white;
+    width: 70%;
+    height: 25%;
+    margin-left: 10%;
+    margin-top: 18%;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 3%;
+    padding-top:15% ;
+    border-radius: 5px;
+    border: 1px solid red;
+
+    p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 7%;
+    }
+}
+
+.playing-now{
+    margin-left: 14%;
+    background-color: rgb(245, 137, 137);
+    color: red;
+    font-size: 15px;
+    height: 35px;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.sidenav7{
+    font-size: 18px;
+    height: 40px;
+    padding-left: 18%;
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+i{
+    padding-right: 10%;
+}
+
+
+.main-body{
+    background-color: azure;
+    width: 83%;
+    height: 800px; 
+}
+
+.trailer-display{
+    background-color: wheat;
+    width: 90%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.movie-frame{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    
+    iframe{
+        width: 1147px;
+        height: 400px;
+    }
+}
+
+.down-body{
+    background-color: wheat;
+    width: 90%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.chief-station{
+    width: 60%;
+    height: 350px;
+    background-color: azure;
+    border-right: 2px solid rgb(97, 95, 95);
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+}
+.action-triller{
+    width: 80%;
+    height: 50px;
+    /* background-color:red; */
+    display: flex;
+h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+button{
+    border-radius: 0.8em;
+    border: 1px solid red;
+    width: 20%;
+    height: 40px;
+    margin-top: 1.5%;
+    gap: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+    color: red;
+    
+}
+}
+
+.rating-vote{
+    width: 40%;
+    height: 350px;
+    background-color: azure;
+}
+
+.star_vote{
+    height: 50px;
+    width: 70%;
+    margin-left:30%;
+    text-align: center;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(84, 13, 13);
+}
+
+.see_showtime{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 1%;
+    font-size: 20px;
+}
+.more_watchoption{
+background-color: rgb(222, 180, 180);
+    width: 100%;
+    height: 60px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 0.8em;
+    margin-top: 0.5%;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    height: 200px;
+}
+.icon{
+    padding-left: 35%;
+i{
+    padding-left: 7%;
+    padding-top: 5%;
+    
+}
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footer-text span{
+    padding-left: 2%;
+}
+
+h5{
+text-align: center;
+padding-left: 2%;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.movie-content p{
+    color: brown;
+    font-size: 20px;
+}
