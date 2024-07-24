@@ -12,14 +12,13 @@ body{
 
 .sidenav-container{
     background-color: white;
-    position: sticky;
     width: 17%;
     height: auto;
     padding-top: 3%;
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     border-right: 3px solid  rgb(74, 68, 68);
-    position: sticky;
+    position: none;
     overflow: hidden;
 
 }
@@ -129,6 +128,9 @@ h2{
     padding-left: 18%;
     padding-top: 15%;
     font-weight: 500;
+    p{
+        font-size: 2px;
+    }
 }
 
 i{
