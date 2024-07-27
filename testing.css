@@ -5,7 +5,7 @@ body{
 
 .main-container{
     width: 100%;
-    height: 800px;
+    height: auto;
     background-color: rgb(146, 146, 0);
     display: flex;
 }
@@ -22,14 +22,6 @@ body{
     overflow: hidden;
 
 }
-
-/* .leftnav-container{
-    width: 80%;
-    height: 500px;
-    background-color: brown;
-    margin-left: 2%;
-    margin-top: 1%;
-} */
 
 .sidenav1{
     width: 100%;
@@ -58,54 +50,61 @@ h2{
 .sidenav2{
     width: 100%;
     font-size: 18px;
-    font-weight: 500;
-    height: 20px;
+    font-weight: 600;
+    height: 40px;
     padding-left: 15%;
     padding-top: 8%;
+    background-color: aliceblue;
+    margin-top: 10%;
 }
 .sidenav3{
     width: 83.5%;
-    height: 20px;
+    height: 40px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     padding-left: 15%;
-    padding-top: 0%;
-    background-color: rgb(255, 155, 155);
+    padding-top: 8%;
+    background-color: aliceblue;
+    margin-top: 10%;
     border-right: 5px solid red;
 
 } .sidenav4{
     width: 100%;
     font-size: 18px;
-    font-weight: 500;
-    height: 20px;
+    font-weight: 600;
+    height: 40px;
     padding-left: 15%;
     padding-top: 8%;
+    background-color: aliceblue;
+    margin-top: 10%;
 } 
 .sidenav5{
     width: 100%;
     font-size: 18px;
-    font-weight: 500;
-    height: 20px;
+    font-weight: 600;
+    height: 40px;
     padding-left: 15%;
     padding-top: 8%;
+    background-color: aliceblue;
+    margin-top: 10%;
 }
 
 .sidenav6{
     background-color:white;
     width: 70%;
-    height: 25%;
+    height: 20%;
     margin-left: 10%;
-    margin-top: 18%;
+    margin-top: 20%;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     padding-left: 3%;
-    padding-top:15% ;
+    padding-top:10% ;
     border-radius: 5px;
     border: 1px solid red;
 
     p{
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 400;
         padding-top: 7%;
     }
@@ -126,8 +125,10 @@ h2{
     font-size: 18px;
     height: 40px;
     padding-left: 18%;
-    padding-top: 15%;
+    padding-top: 10%;
     font-weight: 500;
+    background-color: aliceblue;
+    margin-top: 8%;
     p{
         font-size: 2px;
     }
@@ -181,6 +182,9 @@ p{
     font-weight: 500;
 }
 }
+.overview{
+    font-size: 15px;
+}
 .action-triller{
     width: 80%;
     height: 50px;
@@ -200,7 +204,6 @@ button{
     margin-left: 2%;
     font-size: 15px;
     color: red;
-    
 }
 }
 
