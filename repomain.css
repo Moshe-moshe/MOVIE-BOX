@@ -144,8 +144,14 @@
     
     #movies img{
         width: 100%;
-        height: 400px;
+        height: 500px;
         align-items: center;
+    }
+    h1{
+list-style-type: none;
+    }
+    p{
+list-style-type: none;
     }
     h5{
         text-align: center;
