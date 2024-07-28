@@ -18,8 +18,8 @@ body{
     width: 100%;
     height: auto;
     padding-top: 3%;
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
     border-right: 3px solid  rgb(74, 68, 68);
     position: none;
     overflow: hidden;
@@ -608,7 +608,8 @@ background-color: rgb(222, 180, 180);
         border-right: 5px solid red;
         display: block;
     
-    } .sidenav4{
+    } 
+    .sidenav4{
         width: 100%;
         font-size: 18px;
         font-weight: 600;
@@ -649,7 +650,7 @@ background-color: rgb(222, 180, 180);
         p{
             font-size: 12px;
             font-weight: 400;
-            padding-top: 7%;
+            padding-top: 6%;
         }
     }
     
@@ -658,7 +659,7 @@ background-color: rgb(222, 180, 180);
         background-color: rgb(245, 137, 137);
         color: red;
         font-size: 15px;
-        height: 35px;
+        height: 30px;
         border: none;
         border-radius: 0.5em;
         cursor: pointer;
